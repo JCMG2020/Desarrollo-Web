@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://servicios.org/" targetNamespace="http://servicios.org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ObtenerPedidos" type="tns:ObtenerPedidos" />
+  <xs:element name="ObtenerPedidosResponse" type="tns:ObtenerPedidosResponse" />
+  <xs:element name="actualizarPedido" type="tns:actualizarPedido" />
+  <xs:element name="actualizarPedidoResponse" type="tns:actualizarPedidoResponse" />
+  <xs:element name="insertarPedido" type="tns:insertarPedido" />
+  <xs:element name="insertarPedidoResponse" type="tns:insertarPedidoResponse" />
+  <xs:complexType name="insertarPedido">
+    <xs:sequence>
+      <xs:element name="ID_USUARIO" type="xs:int" />
+      <xs:element name="TIPO_PEDIDO" type="xs:int" />
+      <xs:element minOccurs="0" name="DIR_ORIGEN" type="xs:string" />
+      <xs:element minOccurs="0" name="DIR_DESTINO" type="xs:string" />
+      <xs:element minOccurs="0" name="COMENTARIO" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarPedidoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="actualizarPedido">
+    <xs:sequence>
+      <xs:element name="IdPedido" type="xs:int" />
+      <xs:element name="IdEstado" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="actualizarPedidoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerPedidos">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="ObtenerPedidosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:pedido" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pedido">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="comentario" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion_destino" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion_origen" type="xs:string" />
+      <xs:element minOccurs="0" name="fecha_ingreso" type="xs:string" />
+      <xs:element name="idEstado" type="xs:int" />
+      <xs:element name="idPedido" type="xs:int" />
+      <xs:element name="idUsuario" type="xs:int" />
+      <xs:element name="id_colaborador" type="xs:int" />
+      <xs:element name="tipo_pedido" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

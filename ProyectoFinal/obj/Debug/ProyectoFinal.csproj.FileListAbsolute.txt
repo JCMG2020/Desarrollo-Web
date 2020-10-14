@@ -1,0 +1,306 @@
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.dll.config
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.pdb
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.exe
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.exe.config
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.rsp
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.exe
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.exe.config
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.rsp
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.AppContext.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Console.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.Compression.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Net.Http.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.ValueTuple.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.exe
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.exe.config
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.rsp
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CoreCompileInputs.cache
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CopyComplete
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojAssemblyReference.cache
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll.licenses
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Data.v17.2.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Office.v17.2.Core.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Printing.v17.2.Core.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.ASPxThemes.v17.2.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.Resources.v17.2.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.v17.2.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Images.v17.2.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Data.v17.2.xml
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Printing.v17.2.Core.xml
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Office.v17.2.Core.xml
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.v17.2.xml
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Web.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Web.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Web.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Web.v17.2.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\source\repos\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.dll.config
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.pdb
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.exe
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.exe.config
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.rsp
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.exe
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.exe.config
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.rsp
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.AppContext.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Console.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.Compression.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Net.Http.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.ValueTuple.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.exe
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.exe.config
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.rsp
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Data.v17.2.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Office.v17.2.Core.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Printing.v17.2.Core.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.ASPxThemes.v17.2.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.Resources.v17.2.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.v17.2.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Images.v17.2.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Data.v17.2.xml
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Printing.v17.2.Core.xml
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Office.v17.2.Core.xml
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.v17.2.xml
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Web.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Web.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Web.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Web.v17.2.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Murillo\Desktop\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll.licenses
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.dll.config
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.pdb
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.exe
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.exe.config
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.rsp
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.exe
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.exe.config
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\csi.rsp
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.AppContext.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Console.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.Compression.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Net.Http.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Net.Sockets.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.ValueTuple.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XPath.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.exe
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.exe.config
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.rsp
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Data.v17.2.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Office.v17.2.Core.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Printing.v17.2.Core.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.ASPxThemes.v17.2.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.Resources.v17.2.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.v17.2.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Images.v17.2.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Data.v17.2.xml
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Printing.v17.2.Core.xml
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Office.v17.2.Core.xml
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Web.v17.2.xml
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Web.Resources.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Web.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Web.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Web.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Web.v17.2.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\bin\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll.licenses
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CoreCompileInputs.cache
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CopyComplete
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll
+C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
