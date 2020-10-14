@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8080/ServiciosProyecto/ServiciosUsuario?WSDL" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?WSDL" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ServiciosUsuario.wsdl" MetadataType="Wsdl" ID="b82d17a8-4281-40a1-bdfd-0c2f5d6f2ce3" SourceId="1" SourceUrl="http://localhost:8080/ServiciosProyecto/ServiciosUsuario?WSDL" />
-    <MetadataFile FileName="ServiciosUsuario.xsd" MetadataType="Schema" ID="1c0488f3-d3dc-42e0-aed9-4640c365af29" SourceId="1" SourceUrl="http://localhost:8080/ServiciosProyecto/ServiciosUsuario?xsd=1" />
+    <MetadataFile FileName="ServiciosUsuario.xsd" MetadataType="Schema" ID="af7761f0-b448-4f32-ad5e-c591645a2ac8" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?xsd=1" />
+    <MetadataFile FileName="ServiciosUsuario.wsdl" MetadataType="Wsdl" ID="c7286655-65b2-4023-967d-6f96f162839e" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?WSDL" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

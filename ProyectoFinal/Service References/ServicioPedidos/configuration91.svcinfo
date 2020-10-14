@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="3Tl6otvMO/9USQQmmqPmNPSGdQM=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="ZpCelWcSnwn+gEoMPUIQ4nruLEs=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="ServicioPedidosPortBinding">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="ServicioPedidosPort" contract="ServicioPedidos.ServicioPedidos" bindingType="basicHttpBinding" address="http://localhost:8080/ServiciosProyecto/ServicioPedidos" bindingConfiguration="ServicioPedidosPortBinding">
+    <endpoint name="ServicioPedidosPort" contract="ServicioPedidos.ServicioPedidos" bindingType="basicHttpBinding" address="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos" bindingConfiguration="ServicioPedidosPortBinding">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:8080/ServiciosProyecto/ServicioPedidos</serializedValue>
+          <serializedValue>http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

@@ -25,15 +25,6 @@ namespace ProyectoFinal.ServicioPedidos {
         System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.ObtenerPedidosResponse> ObtenerPedidosAsync(ProyectoFinal.ServicioPedidos.ObtenerPedidosRequest request);
         
         // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
-        [System.ServiceModel.OperationContractAttribute(Action="http://servicios.org/ServicioPedidos/actualizarPedidoRequest", ReplyAction="http://servicios.org/ServicioPedidos/actualizarPedidoResponse")]
-        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
-        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
-        ProyectoFinal.ServicioPedidos.actualizarPedidoResponse actualizarPedido(ProyectoFinal.ServicioPedidos.actualizarPedidoRequest request);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://servicios.org/ServicioPedidos/actualizarPedidoRequest", ReplyAction="http://servicios.org/ServicioPedidos/actualizarPedidoResponse")]
-        System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.actualizarPedidoResponse> actualizarPedidoAsync(ProyectoFinal.ServicioPedidos.actualizarPedidoRequest request);
-        
-        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
         [System.ServiceModel.OperationContractAttribute(Action="http://servicios.org/ServicioPedidos/insertarPedidoRequest", ReplyAction="http://servicios.org/ServicioPedidos/insertarPedidoResponse")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
@@ -41,6 +32,15 @@ namespace ProyectoFinal.ServicioPedidos {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://servicios.org/ServicioPedidos/insertarPedidoRequest", ReplyAction="http://servicios.org/ServicioPedidos/insertarPedidoResponse")]
         System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.insertarPedidoResponse> insertarPedidoAsync(ProyectoFinal.ServicioPedidos.insertarPedidoRequest request);
+        
+        // CODEGEN: Parameter 'return' requires additional schema information that cannot be captured using the parameter mode. The specific attribute is 'System.Xml.Serialization.XmlElementAttribute'.
+        [System.ServiceModel.OperationContractAttribute(Action="http://servicios.org/ServicioPedidos/actualizarPedidoRequest", ReplyAction="http://servicios.org/ServicioPedidos/actualizarPedidoResponse")]
+        [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
+        [return: System.ServiceModel.MessageParameterAttribute(Name="return")]
+        ProyectoFinal.ServicioPedidos.actualizarPedidoResponse actualizarPedido(ProyectoFinal.ServicioPedidos.actualizarPedidoRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://servicios.org/ServicioPedidos/actualizarPedidoRequest", ReplyAction="http://servicios.org/ServicioPedidos/actualizarPedidoResponse")]
+        System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.actualizarPedidoResponse> actualizarPedidoAsync(ProyectoFinal.ServicioPedidos.actualizarPedidoRequest request);
     }
     
     /// <remarks/>
@@ -49,13 +49,19 @@ namespace ProyectoFinal.ServicioPedidos {
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://servicios.org/")]
-    public partial class pedido : object, System.ComponentModel.INotifyPropertyChanged {
+    public partial class modelPedido : object, System.ComponentModel.INotifyPropertyChanged {
+        
+        private string colaboradorField;
         
         private string comentarioField;
+        
+        private string descripcion_pedidoField;
         
         private string direccion_destinoField;
         
         private string direccion_origenField;
+        
+        private string estadoField;
         
         private string fecha_ingresoField;
         
@@ -69,8 +75,22 @@ namespace ProyectoFinal.ServicioPedidos {
         
         private int tipo_pedidoField;
         
+        private string usuarioField;
+        
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string colaborador {
+            get {
+                return this.colaboradorField;
+            }
+            set {
+                this.colaboradorField = value;
+                this.RaisePropertyChanged("colaborador");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
         public string comentario {
             get {
                 return this.comentarioField;
@@ -82,7 +102,19 @@ namespace ProyectoFinal.ServicioPedidos {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public string descripcion_pedido {
+            get {
+                return this.descripcion_pedidoField;
+            }
+            set {
+                this.descripcion_pedidoField = value;
+                this.RaisePropertyChanged("descripcion_pedido");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
         public string direccion_destino {
             get {
                 return this.direccion_destinoField;
@@ -94,7 +126,7 @@ namespace ProyectoFinal.ServicioPedidos {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
         public string direccion_origen {
             get {
                 return this.direccion_origenField;
@@ -106,7 +138,19 @@ namespace ProyectoFinal.ServicioPedidos {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
+        public string estado {
+            get {
+                return this.estadoField;
+            }
+            set {
+                this.estadoField = value;
+                this.RaisePropertyChanged("estado");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=6)]
         public string fecha_ingreso {
             get {
                 return this.fecha_ingresoField;
@@ -118,7 +162,7 @@ namespace ProyectoFinal.ServicioPedidos {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=7)]
         public int idEstado {
             get {
                 return this.idEstadoField;
@@ -130,7 +174,7 @@ namespace ProyectoFinal.ServicioPedidos {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=8)]
         public int idPedido {
             get {
                 return this.idPedidoField;
@@ -142,7 +186,7 @@ namespace ProyectoFinal.ServicioPedidos {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=6)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=9)]
         public int idUsuario {
             get {
                 return this.idUsuarioField;
@@ -154,7 +198,7 @@ namespace ProyectoFinal.ServicioPedidos {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=7)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=10)]
         public int id_colaborador {
             get {
                 return this.id_colaboradorField;
@@ -166,7 +210,7 @@ namespace ProyectoFinal.ServicioPedidos {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=8)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=11)]
         public int tipo_pedido {
             get {
                 return this.tipo_pedidoField;
@@ -174,6 +218,18 @@ namespace ProyectoFinal.ServicioPedidos {
             set {
                 this.tipo_pedidoField = value;
                 this.RaisePropertyChanged("tipo_pedido");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=12)]
+        public string usuario {
+            get {
+                return this.usuarioField;
+            }
+            set {
+                this.usuarioField = value;
+                this.RaisePropertyChanged("usuario");
             }
         }
         
@@ -205,53 +261,12 @@ namespace ProyectoFinal.ServicioPedidos {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://servicios.org/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("return", Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public ProyectoFinal.ServicioPedidos.pedido[] @return;
+        public ProyectoFinal.ServicioPedidos.modelPedido[] @return;
         
         public ObtenerPedidosResponse() {
         }
         
-        public ObtenerPedidosResponse(ProyectoFinal.ServicioPedidos.pedido[] @return) {
-            this.@return = @return;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="actualizarPedido", WrapperNamespace="http://servicios.org/", IsWrapped=true)]
-    public partial class actualizarPedidoRequest {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://servicios.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public int IdPedido;
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://servicios.org/", Order=1)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public int IdEstado;
-        
-        public actualizarPedidoRequest() {
-        }
-        
-        public actualizarPedidoRequest(int IdPedido, int IdEstado) {
-            this.IdPedido = IdPedido;
-            this.IdEstado = IdEstado;
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-    [System.ServiceModel.MessageContractAttribute(WrapperName="actualizarPedidoResponse", WrapperNamespace="http://servicios.org/", IsWrapped=true)]
-    public partial class actualizarPedidoResponse {
-        
-        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://servicios.org/", Order=0)]
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public bool @return;
-        
-        public actualizarPedidoResponse() {
-        }
-        
-        public actualizarPedidoResponse(bool @return) {
+        public ObtenerPedidosResponse(ProyectoFinal.ServicioPedidos.modelPedido[] @return) {
             this.@return = @return;
         }
     }
@@ -312,6 +327,47 @@ namespace ProyectoFinal.ServicioPedidos {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="actualizarPedido", WrapperNamespace="http://servicios.org/", IsWrapped=true)]
+    public partial class actualizarPedidoRequest {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://servicios.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public int IdPedido;
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://servicios.org/", Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public int IdEstado;
+        
+        public actualizarPedidoRequest() {
+        }
+        
+        public actualizarPedidoRequest(int IdPedido, int IdEstado) {
+            this.IdPedido = IdPedido;
+            this.IdEstado = IdEstado;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(WrapperName="actualizarPedidoResponse", WrapperNamespace="http://servicios.org/", IsWrapped=true)]
+    public partial class actualizarPedidoResponse {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://servicios.org/", Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified)]
+        public bool @return;
+        
+        public actualizarPedidoResponse() {
+        }
+        
+        public actualizarPedidoResponse(bool @return) {
+            this.@return = @return;
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public interface ServicioPedidosChannel : ProyectoFinal.ServicioPedidos.ServicioPedidos, System.ServiceModel.IClientChannel {
     }
@@ -344,7 +400,7 @@ namespace ProyectoFinal.ServicioPedidos {
             return base.Channel.ObtenerPedidos(request);
         }
         
-        public ProyectoFinal.ServicioPedidos.pedido[] ObtenerPedidos() {
+        public ProyectoFinal.ServicioPedidos.modelPedido[] ObtenerPedidos() {
             ProyectoFinal.ServicioPedidos.ObtenerPedidosRequest inValue = new ProyectoFinal.ServicioPedidos.ObtenerPedidosRequest();
             ProyectoFinal.ServicioPedidos.ObtenerPedidosResponse retVal = ((ProyectoFinal.ServicioPedidos.ServicioPedidos)(this)).ObtenerPedidos(inValue);
             return retVal.@return;
@@ -358,31 +414,6 @@ namespace ProyectoFinal.ServicioPedidos {
         public System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.ObtenerPedidosResponse> ObtenerPedidosAsync() {
             ProyectoFinal.ServicioPedidos.ObtenerPedidosRequest inValue = new ProyectoFinal.ServicioPedidos.ObtenerPedidosRequest();
             return ((ProyectoFinal.ServicioPedidos.ServicioPedidos)(this)).ObtenerPedidosAsync(inValue);
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        ProyectoFinal.ServicioPedidos.actualizarPedidoResponse ProyectoFinal.ServicioPedidos.ServicioPedidos.actualizarPedido(ProyectoFinal.ServicioPedidos.actualizarPedidoRequest request) {
-            return base.Channel.actualizarPedido(request);
-        }
-        
-        public bool actualizarPedido(int IdPedido, int IdEstado) {
-            ProyectoFinal.ServicioPedidos.actualizarPedidoRequest inValue = new ProyectoFinal.ServicioPedidos.actualizarPedidoRequest();
-            inValue.IdPedido = IdPedido;
-            inValue.IdEstado = IdEstado;
-            ProyectoFinal.ServicioPedidos.actualizarPedidoResponse retVal = ((ProyectoFinal.ServicioPedidos.ServicioPedidos)(this)).actualizarPedido(inValue);
-            return retVal.@return;
-        }
-        
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.actualizarPedidoResponse> ProyectoFinal.ServicioPedidos.ServicioPedidos.actualizarPedidoAsync(ProyectoFinal.ServicioPedidos.actualizarPedidoRequest request) {
-            return base.Channel.actualizarPedidoAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.actualizarPedidoResponse> actualizarPedidoAsync(int IdPedido, int IdEstado) {
-            ProyectoFinal.ServicioPedidos.actualizarPedidoRequest inValue = new ProyectoFinal.ServicioPedidos.actualizarPedidoRequest();
-            inValue.IdPedido = IdPedido;
-            inValue.IdEstado = IdEstado;
-            return ((ProyectoFinal.ServicioPedidos.ServicioPedidos)(this)).actualizarPedidoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -414,6 +445,31 @@ namespace ProyectoFinal.ServicioPedidos {
             inValue.DIR_DESTINO = DIR_DESTINO;
             inValue.COMENTARIO = COMENTARIO;
             return ((ProyectoFinal.ServicioPedidos.ServicioPedidos)(this)).insertarPedidoAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        ProyectoFinal.ServicioPedidos.actualizarPedidoResponse ProyectoFinal.ServicioPedidos.ServicioPedidos.actualizarPedido(ProyectoFinal.ServicioPedidos.actualizarPedidoRequest request) {
+            return base.Channel.actualizarPedido(request);
+        }
+        
+        public bool actualizarPedido(int IdPedido, int IdEstado) {
+            ProyectoFinal.ServicioPedidos.actualizarPedidoRequest inValue = new ProyectoFinal.ServicioPedidos.actualizarPedidoRequest();
+            inValue.IdPedido = IdPedido;
+            inValue.IdEstado = IdEstado;
+            ProyectoFinal.ServicioPedidos.actualizarPedidoResponse retVal = ((ProyectoFinal.ServicioPedidos.ServicioPedidos)(this)).actualizarPedido(inValue);
+            return retVal.@return;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.actualizarPedidoResponse> ProyectoFinal.ServicioPedidos.ServicioPedidos.actualizarPedidoAsync(ProyectoFinal.ServicioPedidos.actualizarPedidoRequest request) {
+            return base.Channel.actualizarPedidoAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<ProyectoFinal.ServicioPedidos.actualizarPedidoResponse> actualizarPedidoAsync(int IdPedido, int IdEstado) {
+            ProyectoFinal.ServicioPedidos.actualizarPedidoRequest inValue = new ProyectoFinal.ServicioPedidos.actualizarPedidoRequest();
+            inValue.IdPedido = IdPedido;
+            inValue.IdEstado = IdEstado;
+            return ((ProyectoFinal.ServicioPedidos.ServicioPedidos)(this)).actualizarPedidoAsync(inValue);
         }
     }
 }

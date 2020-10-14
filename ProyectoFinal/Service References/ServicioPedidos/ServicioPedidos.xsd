@@ -36,20 +36,24 @@
   </xs:complexType>
   <xs:complexType name="ObtenerPedidosResponse">
     <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:pedido" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelPedido" />
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="pedido">
+  <xs:complexType name="modelPedido">
     <xs:sequence>
+      <xs:element minOccurs="0" name="colaborador" type="xs:string" />
       <xs:element minOccurs="0" name="comentario" type="xs:string" />
+      <xs:element minOccurs="0" name="descripcion_pedido" type="xs:string" />
       <xs:element minOccurs="0" name="direccion_destino" type="xs:string" />
       <xs:element minOccurs="0" name="direccion_origen" type="xs:string" />
+      <xs:element minOccurs="0" name="estado" type="xs:string" />
       <xs:element minOccurs="0" name="fecha_ingreso" type="xs:string" />
       <xs:element name="idEstado" type="xs:int" />
       <xs:element name="idPedido" type="xs:int" />
       <xs:element name="idUsuario" type="xs:int" />
       <xs:element name="id_colaborador" type="xs:int" />
       <xs:element name="tipo_pedido" type="xs:int" />
+      <xs:element minOccurs="0" name="usuario" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
 </xs:schema>

@@ -111,6 +111,9 @@
     <Content Include="js\datepicker\daterangepicker.js" />
     <Content Include="js\moment\moment.min.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Pedidos.aspx" />
+    <None Include="Service References\ServicioPedidos\configuration91.svcinfo" />
+    <None Include="Service References\ServicioPedidos\configuration.svcinfo" />
     <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.actualizarPedidoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -120,19 +123,16 @@
     <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.ObtenerPedidosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.pedido.datasource">
+    <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.modelPedido.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <None Include="Service References\ServicioPedidos\ServicioPedidos.wsdl" />
-    <None Include="Service References\ServicioPedidos\ServicioPedidos.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <Content Include="Pedidos.aspx" />
-    <None Include="Service References\ServicioPedidos\configuration91.svcinfo" />
-    <None Include="Service References\ServicioPedidos\configuration.svcinfo" />
     <None Include="Service References\ServicioPedidos\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ServicioPedidos\ServicioPedidos.wsdl" />
+    <None Include="Service References\ServicioPedidos\ServicioPedidos.xsd">
+      <SubType>Designer</SubType>
     </None>
     <None Include="Service References\ServicioUsuario\configuration91.svcinfo" />
     <None Include="Service References\ServicioUsuario\configuration.svcinfo" />
@@ -152,6 +152,9 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.ObtenerUsuariosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.modelPedido.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <None Include="Service References\ServicioUsuario\Reference.svcmap">

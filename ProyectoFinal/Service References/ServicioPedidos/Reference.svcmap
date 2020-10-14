@@ -19,11 +19,11 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:8080/ServiciosProyecto/ServicioPedidos?WSDL" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?WSDL" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ServicioPedidos.wsdl" MetadataType="Wsdl" ID="f46fdd1a-ad87-422c-8527-ba03031432ca" SourceId="1" SourceUrl="http://localhost:8080/ServiciosProyecto/ServicioPedidos?WSDL" />
-    <MetadataFile FileName="ServicioPedidos.xsd" MetadataType="Schema" ID="79513389-0046-44b1-bf85-903d75239431" SourceId="1" SourceUrl="http://localhost:8080/ServiciosProyecto/ServicioPedidos?xsd=1" />
+    <MetadataFile FileName="ServicioPedidos.xsd" MetadataType="Schema" ID="0393a29f-dc8e-4134-928f-a360b8344a70" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?xsd=1" />
+    <MetadataFile FileName="ServicioPedidos.wsdl" MetadataType="Wsdl" ID="65e0e56d-72f2-4d88-b77a-111a911650b1" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?WSDL" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -2,7 +2,7 @@
 <definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://servicios.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="ServiciosUsuario" targetNamespace="http://servicios.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
   <types>
     <xsd:schema>
-      <xsd:import schemaLocation="http://localhost:8080/ServiciosProyecto/ServiciosUsuario?xsd=1" namespace="http://servicios.org/" />
+      <xsd:import schemaLocation="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?xsd=1" namespace="http://servicios.org/" />
     </xsd:schema>
   </types>
   <message name="LoginUsuario">
@@ -11,17 +11,17 @@
   <message name="LoginUsuarioResponse">
     <part name="parameters" element="tns:LoginUsuarioResponse" />
   </message>
-  <message name="insertarUsuario">
-    <part name="parameters" element="tns:insertarUsuario" />
-  </message>
-  <message name="insertarUsuarioResponse">
-    <part name="parameters" element="tns:insertarUsuarioResponse" />
-  </message>
   <message name="ObtenerUsuarios">
     <part name="parameters" element="tns:ObtenerUsuarios" />
   </message>
   <message name="ObtenerUsuariosResponse">
     <part name="parameters" element="tns:ObtenerUsuariosResponse" />
+  </message>
+  <message name="insertarUsuario">
+    <part name="parameters" element="tns:insertarUsuario" />
+  </message>
+  <message name="insertarUsuarioResponse">
+    <part name="parameters" element="tns:insertarUsuarioResponse" />
   </message>
   <message name="eliminarUsuario">
     <part name="parameters" element="tns:eliminarUsuario" />
@@ -40,13 +40,13 @@
       <input wsam:Action="http://servicios.org/ServiciosUsuario/LoginUsuarioRequest" message="tns:LoginUsuario" />
       <output wsam:Action="http://servicios.org/ServiciosUsuario/LoginUsuarioResponse" message="tns:LoginUsuarioResponse" />
     </operation>
-    <operation name="insertarUsuario">
-      <input wsam:Action="http://servicios.org/ServiciosUsuario/insertarUsuarioRequest" message="tns:insertarUsuario" />
-      <output wsam:Action="http://servicios.org/ServiciosUsuario/insertarUsuarioResponse" message="tns:insertarUsuarioResponse" />
-    </operation>
     <operation name="ObtenerUsuarios">
       <input wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerUsuariosRequest" message="tns:ObtenerUsuarios" />
       <output wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerUsuariosResponse" message="tns:ObtenerUsuariosResponse" />
+    </operation>
+    <operation name="insertarUsuario">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/insertarUsuarioRequest" message="tns:insertarUsuario" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/insertarUsuarioResponse" message="tns:insertarUsuarioResponse" />
     </operation>
     <operation name="eliminarUsuario">
       <input wsam:Action="http://servicios.org/ServiciosUsuario/eliminarUsuarioRequest" message="tns:eliminarUsuario" />
@@ -68,7 +68,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="insertarUsuario">
+    <operation name="ObtenerUsuarios">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -77,7 +77,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="ObtenerUsuarios">
+    <operation name="insertarUsuario">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -107,7 +107,7 @@
   </binding>
   <service name="ServiciosUsuario">
     <port name="ServiciosUsuarioPort" binding="tns:ServiciosUsuarioPortBinding">
-      <soap:address location="http://localhost:8080/ServiciosProyecto/ServiciosUsuario" />
+      <soap:address location="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario" />
     </port>
   </service>
 </definitions>

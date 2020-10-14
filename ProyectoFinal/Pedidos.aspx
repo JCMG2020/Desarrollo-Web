@@ -23,11 +23,10 @@
                                
                 <dx:GridViewDataTextColumn Caption="CODIGO" FieldName="idPedido" VisibleIndex="1" ReadOnly="true">                    
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="TIPO PEDIDO" FieldName="tipo_pedido" VisibleIndex="2" ReadOnly="false">                    
+                <dx:GridViewDataTextColumn Caption="USUARIO" FieldName="usuario" VisibleIndex="2" >                    
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="ID USUARIO" FieldName="idUsuario" VisibleIndex="3">
-                </dx:GridViewDataTextColumn>
-                
+                <dx:GridViewDataTextColumn Caption="TIPO PEDIDO" FieldName="descripcion_pedido" VisibleIndex="3">
+                </dx:GridViewDataTextColumn>               
                 <dx:GridViewDataTextColumn Caption="DIRECCION ORIGEN" FieldName="direccion_origen" VisibleIndex="4">
                 </dx:GridViewDataTextColumn>
                 <dx:GridViewDataTextColumn Caption="DIRECCION DESTINO" FieldName="direccion_destino" VisibleIndex="5">
@@ -36,9 +35,9 @@
                 </dx:GridViewDataTextColumn>
                 <dx:GridViewDataTextColumn Caption="COMENTARIO" FieldName="comentario" VisibleIndex="7">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="ID COLABORADOR" FieldName="id_colaborador" VisibleIndex="8">
+                <dx:GridViewDataTextColumn Caption="ESTADO" FieldName="estado" VisibleIndex="8">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="ID ESTADO" FieldName="idEstado" VisibleIndex="9">
+                <dx:GridViewDataTextColumn Caption="COLABORADOR" FieldName="colaborador" VisibleIndex="9">
                 </dx:GridViewDataTextColumn>
             </Columns>
             <SettingsPager>
