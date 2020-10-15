@@ -5,9 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form runat="server" style="width: 100%">
     <div class="contenedor" id="contenedor">          
-    <dx:ASPxGridView ID="dxGridPedido" runat="server" AutoGenerateColumns="false"  ClientInstanceName="dxGridPedido" KeyFieldName="idPedido" SettingsBehavior-ConfirmDelete ="true"  Width="100" Theme="Material">
+    <dx:ASPxGridView ID="dxGridPedido" runat="server"  AutoGenerateColumns="false"  ClientInstanceName="dxGridPedido" KeyFieldName="idPedido" SettingsBehavior-ConfirmDelete ="true"  Width="100" Theme="Material">
             
-            <SettingsPager PageSize="10" />            
+            <SettingsPager PageSize="10" />       
+            <Settings HorizontalScrollBarMode="Auto" />
             <EditFormLayoutProperties>
                 <SettingsAdaptivity AdaptivityMode="SingleColumnWindowLimit" SwitchToSingleColumnAtWindowInnerWidth="600" />
             </EditFormLayoutProperties>            
@@ -21,7 +22,7 @@
             <Columns>
                 <dx:GridViewCommandColumn ShowEditButton="true" ShowNewButton="true" ShowDeleteButton="true" />  
                                
-                <dx:GridViewDataTextColumn Caption="CODIGO" FieldName="idPedido" VisibleIndex="1" ReadOnly="true">                    
+                <dx:GridViewDataTextColumn Caption="CODIGO" FieldName="idPedido" VisibleIndex="1" ReadOnly="true" width="50">                    
                 </dx:GridViewDataTextColumn>
                 <dx:GridViewDataTextColumn Caption="USUARIO" FieldName="usuario" VisibleIndex="2" >                    
                 </dx:GridViewDataTextColumn>

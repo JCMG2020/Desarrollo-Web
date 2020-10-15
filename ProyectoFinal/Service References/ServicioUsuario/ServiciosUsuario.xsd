@@ -2,10 +2,8 @@
 <xs:schema xmlns:tns="http://servicios.org/" targetNamespace="http://servicios.org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="LoginUsuario" type="tns:LoginUsuario" />
   <xs:element name="LoginUsuarioResponse" type="tns:LoginUsuarioResponse" />
-  <xs:element name="ObtenerPedidos" type="tns:ObtenerPedidos" />
-  <xs:element name="ObtenerPedidosResponse" type="tns:ObtenerPedidosResponse" />
-  <xs:element name="ObtenerUsuarios" nillable="true" type="tns:ObtenerPedidos" />
-  <xs:element name="ObtenerUsuariosResponse" nillable="true" type="tns:ObtenerPedidosResponse" />
+  <xs:element name="ObtenerUsuarios" type="tns:ObtenerUsuarios" />
+  <xs:element name="ObtenerUsuariosResponse" type="tns:ObtenerUsuariosResponse" />
   <xs:element name="actualizarUsuario" type="tns:actualizarUsuario" />
   <xs:element name="actualizarUsuarioResponse" type="tns:actualizarUsuarioResponse" />
   <xs:element name="eliminarUsuario" type="tns:eliminarUsuario" />
@@ -21,7 +19,7 @@
       <xs:element minOccurs="0" name="CONTRASENA" type="xs:string" />
       <xs:element name="TELEFONO" type="xs:int" />
       <xs:element name="TIPO_USUARIO" type="xs:int" />
-      <xs:element name="DPI" type="xs:int" />
+      <xs:element minOccurs="0" name="DPI" type="xs:string" />
       <xs:element name="ESTADO" type="xs:boolean" />
     </xs:sequence>
   </xs:complexType>
@@ -30,29 +28,25 @@
       <xs:element name="return" type="xs:boolean" />
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="ObtenerPedidos">
+  <xs:complexType name="ObtenerUsuarios">
     <xs:sequence />
   </xs:complexType>
-  <xs:complexType name="ObtenerPedidosResponse">
+  <xs:complexType name="ObtenerUsuariosResponse">
     <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelPedido" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelUsuario" />
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="modelPedido">
+  <xs:complexType name="modelUsuario">
     <xs:sequence>
-      <xs:element minOccurs="0" name="colaborador" type="xs:string" />
-      <xs:element minOccurs="0" name="comentario" type="xs:string" />
-      <xs:element minOccurs="0" name="descripcion_pedido" type="xs:string" />
-      <xs:element minOccurs="0" name="direccion_destino" type="xs:string" />
-      <xs:element minOccurs="0" name="direccion_origen" type="xs:string" />
-      <xs:element minOccurs="0" name="estado" type="xs:string" />
-      <xs:element minOccurs="0" name="fecha_ingreso" type="xs:string" />
-      <xs:element name="idEstado" type="xs:int" />
-      <xs:element name="idPedido" type="xs:int" />
+      <xs:element minOccurs="0" name="apellido" type="xs:string" />
+      <xs:element minOccurs="0" name="contrasena" type="xs:string" />
+      <xs:element minOccurs="0" name="DPI" type="xs:string" />
+      <xs:element minOccurs="0" name="email" type="xs:string" />
+      <xs:element name="estado" type="xs:boolean" />
       <xs:element name="idUsuario" type="xs:int" />
-      <xs:element name="id_colaborador" type="xs:int" />
-      <xs:element name="tipo_pedido" type="xs:int" />
-      <xs:element minOccurs="0" name="usuario" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element name="tipo_usuario" type="xs:int" />
+      <xs:element minOccurs="0" name="usuario_alias" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="actualizarUsuario">
@@ -65,7 +59,7 @@
       <xs:element minOccurs="0" name="CONTRASENA" type="xs:string" />
       <xs:element name="TELEFONO" type="xs:int" />
       <xs:element name="TIPO_USUARIO" type="xs:int" />
-      <xs:element name="DPI" type="xs:float" />
+      <xs:element minOccurs="0" name="DPI" type="xs:string" />
       <xs:element name="ESTADO" type="xs:boolean" />
     </xs:sequence>
   </xs:complexType>
@@ -93,19 +87,6 @@
   <xs:complexType name="LoginUsuarioResponse">
     <xs:sequence>
       <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelUsuario" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:complexType name="modelUsuario">
-    <xs:sequence>
-      <xs:element minOccurs="0" name="apellido" type="xs:string" />
-      <xs:element minOccurs="0" name="contrasena" type="xs:string" />
-      <xs:element name="DPI" type="xs:float" />
-      <xs:element minOccurs="0" name="email" type="xs:string" />
-      <xs:element name="estado" type="xs:boolean" />
-      <xs:element name="idUsuario" type="xs:int" />
-      <xs:element minOccurs="0" name="nombre" type="xs:string" />
-      <xs:element name="tipo_usuario" type="xs:int" />
-      <xs:element minOccurs="0" name="usuario_alias" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
 </xs:schema>

@@ -23,6 +23,8 @@
                                
                 <dx:GridViewDataTextColumn Caption="ID USUARIO" FieldName="idUsuario" VisibleIndex="1" ReadOnly="true">                    
                 </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn Caption="USUARIO" FieldName="usuario_alias" VisibleIndex="1" ReadOnly="true">                    
+                </dx:GridViewDataTextColumn>
 
                 <dx:GridViewDataTextColumn Caption="NOMBRE" FieldName="nombre" VisibleIndex="3">
                 </dx:GridViewDataTextColumn>         
@@ -32,7 +34,7 @@
                 </dx:GridViewDataTextColumn>
                 <dx:GridViewDataTextColumn Caption="CONTRASENA" FieldName="contrasena" VisibleIndex="6">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="CONTRASENA" FieldName="DPI" VisibleIndex="6">
+                <dx:GridViewDataTextColumn Caption="DPI" FieldName="DPI" VisibleIndex="6">
                 </dx:GridViewDataTextColumn>
       
 

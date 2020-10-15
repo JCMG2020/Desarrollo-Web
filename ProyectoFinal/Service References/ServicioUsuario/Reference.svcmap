@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0dc6279a-10f2-40e1-b000-c0f20ba4efa5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c637a810-8f13-44e2-a753-5e8ab323a5f8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,8 +22,8 @@
     <MetadataSource Address="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?WSDL" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ServiciosUsuario.xsd" MetadataType="Schema" ID="af7761f0-b448-4f32-ad5e-c591645a2ac8" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?xsd=1" />
-    <MetadataFile FileName="ServiciosUsuario.wsdl" MetadataType="Wsdl" ID="c7286655-65b2-4023-967d-6f96f162839e" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?WSDL" />
+    <MetadataFile FileName="ServiciosUsuario.xsd" MetadataType="Schema" ID="b55640e7-e710-4741-bceb-c337267ecc9d" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?xsd=1" />
+    <MetadataFile FileName="ServiciosUsuario.wsdl" MetadataType="Wsdl" ID="46bf0a28-cdf4-4fcd-8f51-6f26c68e4720" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServiciosUsuario?WSDL" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
