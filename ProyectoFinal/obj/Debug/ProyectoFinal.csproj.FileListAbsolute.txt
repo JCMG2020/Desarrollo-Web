@@ -507,3 +507,4 @@ C:\Users\JoseCarlos\Desktop\Nueva carpeta\Desarrollo-Web\ProyectoFinal\obj\Debug
 C:\Users\JoseCarlos\Desktop\Nueva carpeta\Desarrollo-Web\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CopyComplete
 C:\Users\JoseCarlos\Desktop\Nueva carpeta\Desarrollo-Web\ProyectoFinal\obj\Debug\ProyectoFinal.dll
 C:\Users\JoseCarlos\Desktop\Nueva carpeta\Desarrollo-Web\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\Murillo\Documents\GitHub\Desarrollo-Web\ProyectoFinal\obj\Debug\ProyectoFinal.dll.licenses

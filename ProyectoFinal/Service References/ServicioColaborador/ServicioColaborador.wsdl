@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://servicios.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="ServicioColaborador" targetNamespace="http://servicios.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/Desarrollo-Java-Services/ServicioColaborador?xsd=1" namespace="http://servicios.org/" />
+    </xsd:schema>
+  </types>
+  <message name="ObtenerColaboradorres">
+    <part name="parameters" element="tns:ObtenerColaboradorres" />
+  </message>
+  <message name="ObtenerColaboradorresResponse">
+    <part name="parameters" element="tns:ObtenerColaboradorresResponse" />
+  </message>
+  <message name="insertarColaborador">
+    <part name="parameters" element="tns:insertarColaborador" />
+  </message>
+  <message name="insertarColaboradorResponse">
+    <part name="parameters" element="tns:insertarColaboradorResponse" />
+  </message>
+  <message name="actualizarColaborador">
+    <part name="parameters" element="tns:actualizarColaborador" />
+  </message>
+  <message name="actualizarColaboradorResponse">
+    <part name="parameters" element="tns:actualizarColaboradorResponse" />
+  </message>
+  <message name="eliminarColaborador">
+    <part name="parameters" element="tns:eliminarColaborador" />
+  </message>
+  <message name="eliminarColaboradorResponse">
+    <part name="parameters" element="tns:eliminarColaboradorResponse" />
+  </message>
+  <message name="ObtenerCargos">
+    <part name="parameters" element="tns:ObtenerCargos" />
+  </message>
+  <message name="ObtenerCargosResponse">
+    <part name="parameters" element="tns:ObtenerCargosResponse" />
+  </message>
+  <portType name="ServicioColaborador">
+    <operation name="ObtenerColaboradorres">
+      <input wsam:Action="http://servicios.org/ServicioColaborador/ObtenerColaboradorresRequest" message="tns:ObtenerColaboradorres" />
+      <output wsam:Action="http://servicios.org/ServicioColaborador/ObtenerColaboradorresResponse" message="tns:ObtenerColaboradorresResponse" />
+    </operation>
+    <operation name="insertarColaborador">
+      <input wsam:Action="http://servicios.org/ServicioColaborador/insertarColaboradorRequest" message="tns:insertarColaborador" />
+      <output wsam:Action="http://servicios.org/ServicioColaborador/insertarColaboradorResponse" message="tns:insertarColaboradorResponse" />
+    </operation>
+    <operation name="actualizarColaborador">
+      <input wsam:Action="http://servicios.org/ServicioColaborador/actualizarColaboradorRequest" message="tns:actualizarColaborador" />
+      <output wsam:Action="http://servicios.org/ServicioColaborador/actualizarColaboradorResponse" message="tns:actualizarColaboradorResponse" />
+    </operation>
+    <operation name="eliminarColaborador">
+      <input wsam:Action="http://servicios.org/ServicioColaborador/eliminarColaboradorRequest" message="tns:eliminarColaborador" />
+      <output wsam:Action="http://servicios.org/ServicioColaborador/eliminarColaboradorResponse" message="tns:eliminarColaboradorResponse" />
+    </operation>
+    <operation name="ObtenerCargos">
+      <input wsam:Action="http://servicios.org/ServicioColaborador/ObtenerCargosRequest" message="tns:ObtenerCargos" />
+      <output wsam:Action="http://servicios.org/ServicioColaborador/ObtenerCargosResponse" message="tns:ObtenerCargosResponse" />
+    </operation>
+  </portType>
+  <binding name="ServicioColaboradorPortBinding" type="tns:ServicioColaborador">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="ObtenerColaboradorres">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarColaborador">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarColaborador">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminarColaborador">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ObtenerCargos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServicioColaborador">
+    <port name="ServicioColaboradorPort" binding="tns:ServicioColaboradorPortBinding">
+      <soap:address location="http://localhost:8080/Desarrollo-Java-Services/ServicioColaborador" />
+    </port>
+  </service>
+</definitions>

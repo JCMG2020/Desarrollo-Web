@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://servicios.org/" targetNamespace="http://servicios.org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ObtenerCargos" type="tns:ObtenerCargos" />
+  <xs:element name="ObtenerCargosResponse" type="tns:ObtenerCargosResponse" />
+  <xs:element name="ObtenerColaboradorres" type="tns:ObtenerColaboradorres" />
+  <xs:element name="ObtenerColaboradorresResponse" type="tns:ObtenerColaboradorresResponse" />
+  <xs:element name="actualizarColaborador" type="tns:actualizarColaborador" />
+  <xs:element name="actualizarColaboradorResponse" type="tns:actualizarColaboradorResponse" />
+  <xs:element name="eliminarColaborador" type="tns:eliminarColaborador" />
+  <xs:element name="eliminarColaboradorResponse" type="tns:eliminarColaboradorResponse" />
+  <xs:element name="insertarColaborador" type="tns:insertarColaborador" />
+  <xs:element name="insertarColaboradorResponse" type="tns:insertarColaboradorResponse" />
+  <xs:complexType name="actualizarColaborador">
+    <xs:sequence>
+      <xs:element name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="NOMBRE" type="xs:string" />
+      <xs:element minOccurs="0" name="APELLIDO" type="xs:string" />
+      <xs:element minOccurs="0" name="DPI" type="xs:string" />
+      <xs:element name="ID_CARGO" type="xs:int" />
+      <xs:element minOccurs="0" name="FCH_NAC" type="xs:string" />
+      <xs:element minOccurs="0" name="FCH_CONTRAT" type="xs:string" />
+      <xs:element minOccurs="0" name="DOMICILIO" type="xs:string" />
+      <xs:element minOccurs="0" name="TELEFONO" type="xs:string" />
+      <xs:element minOccurs="0" name="PLACA" type="xs:string" />
+      <xs:element name="ESTADO" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="actualizarColaboradorResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarColaborador">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarColaboradorResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarColaborador">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="NOMBRE" type="xs:string" />
+      <xs:element minOccurs="0" name="APELLIDO" type="xs:string" />
+      <xs:element minOccurs="0" name="DPI" type="xs:string" />
+      <xs:element name="ID_CARGO" type="xs:int" />
+      <xs:element minOccurs="0" name="FCH_NAC" type="xs:string" />
+      <xs:element minOccurs="0" name="FCH_CONTRAT" type="xs:string" />
+      <xs:element minOccurs="0" name="DOMICILIO" type="xs:string" />
+      <xs:element minOccurs="0" name="TELEFONO" type="xs:string" />
+      <xs:element minOccurs="0" name="PLACA" type="xs:string" />
+      <xs:element name="ESTADO" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarColaboradorResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerColaboradorres">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="ObtenerColaboradorresResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelColaboradores" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modelColaboradores">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="apellido" type="xs:string" />
+      <xs:element minOccurs="0" name="cargo" type="xs:string" />
+      <xs:element minOccurs="0" name="DPI" type="xs:string" />
+      <xs:element minOccurs="0" name="domicilio" type="xs:string" />
+      <xs:element name="estado" type="xs:boolean" />
+      <xs:element minOccurs="0" name="fechaContratacion" type="xs:string" />
+      <xs:element minOccurs="0" name="fechaNacimiento" type="xs:string" />
+      <xs:element name="idCargo" type="xs:int" />
+      <xs:element name="idColaborador" type="xs:int" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element minOccurs="0" name="placa" type="xs:string" />
+      <xs:element minOccurs="0" name="telefono" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerCargos">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="ObtenerCargosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelColaboradores" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -90,6 +90,7 @@
     <Content Include="build\images\loading.gif" />
     <Content Include="build\js\custom.js" />
     <Content Include="build\js\custom.min.js" />
+    <Content Include="Colaboradores.aspx" />
     <Content Include="css\maps\jquery-jvectormap-2.0.3.css" />
     <Content Include="images\american-express.png" />
     <Content Include="images\cropper.jpg" />
@@ -112,8 +113,36 @@
     <Content Include="js\moment\moment.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="Pedidos.aspx" />
+    <Content Include="Service References\ServicioColaborador\ProyectoFinal.ServicioColaborador.actualizarColaboradorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioColaborador\ProyectoFinal.ServicioColaborador.eliminarColaboradorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioColaborador\ProyectoFinal.ServicioColaborador.insertarColaboradorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioColaborador\ProyectoFinal.ServicioColaborador.modelColaboradores.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioColaborador\ProyectoFinal.ServicioColaborador.ObtenerColaboradorresResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioColaborador\ProyectoFinal.ServicioColaborador.ObtenerCargosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\ServicioColaborador\ServicioColaborador.wsdl" />
+    <None Include="Service References\ServicioColaborador\ServicioColaborador.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\ServicioPedidos\configuration91.svcinfo" />
     <None Include="Service References\ServicioPedidos\configuration.svcinfo" />
+    <None Include="Service References\ServicioColaborador\configuration91.svcinfo" />
+    <None Include="Service References\ServicioColaborador\configuration.svcinfo" />
+    <None Include="Service References\ServicioColaborador\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.actualizarPedidoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -3859,6 +3888,13 @@
     <Compile Include="App_Code\Dal\DaoPedido.cs" />
     <Compile Include="App_Code\Models\ClsPedido.cs" />
     <Compile Include="App_Code\Utilidades\ClsErrorHandler.cs" />
+    <Compile Include="Colaboradores.aspx.cs">
+      <DependentUpon>Colaboradores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Colaboradores.aspx.designer.cs">
+      <DependentUpon>Colaboradores.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3894,6 +3930,11 @@
     </Compile>
     <Compile Include="Secundaria.Master.designer.cs">
       <DependentUpon>Secundaria.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServicioColaborador\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Service References\ServicioPedidos\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -4976,8 +5017,12 @@
     <Folder Include="login\vendor\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServicioColaborador\" />
     <WCFMetadataStorage Include="Service References\ServicioPedidos\" />
     <WCFMetadataStorage Include="Service References\ServicioUsuario\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
