@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form runat="server" style="width: 100%">
     <div class="contenedor" id="contenedor">          
-    <dx:ASPxGridView ID="dxGridPedido" runat="server"  AutoGenerateColumns="false"  ClientInstanceName="dxGridPedido" KeyFieldName="idPedido" SettingsBehavior-ConfirmDelete ="true"  Width="100" Theme="Material">
+    <dx:ASPxGridView ID="dxGridPedido" runat="server"  AutoGenerateColumns="false"  ClientInstanceName="dxGridPedido" KeyFieldName="idPedido" SettingsBehavior-ConfirmDelete ="true"  Width="100px" Theme="Material">
             
             <SettingsPager PageSize="10" />       
             <Settings HorizontalScrollBarMode="Auto" />
@@ -14,31 +14,26 @@
             </EditFormLayoutProperties>            
             <SettingsSearchPanel Visible="true" />
             <Settings  ShowFooter="True"/>
-            <SettingsCommandButton>
-                    <EditButton  Text="EDITAR" />
-                    <NewButton   Text="NUEVO"  />
-                    <DeleteButton   Text="ELIMINAR"  />
-            </SettingsCommandButton>
+
             <Columns>
-                <dx:GridViewCommandColumn ShowEditButton="true" ShowNewButton="true" ShowDeleteButton="true" />  
-                               
-                <dx:GridViewDataTextColumn Caption="CODIGO" FieldName="idPedido" VisibleIndex="1" ReadOnly="true" width="50">                    
+                                           
+                <dx:GridViewDataTextColumn Caption="CODIGO" FieldName="idPedido" VisibleIndex="1" ReadOnly="true">                    
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="USUARIO" FieldName="usuario" VisibleIndex="2" >                    
+                <dx:GridViewDataTextColumn Caption="USUARIO" FieldName="usuario" VisibleIndex="2" ReadOnly="true">                    
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="TIPO PEDIDO" FieldName="descripcion_pedido" VisibleIndex="3">
+                <dx:GridViewDataTextColumn Caption="TIPO PEDIDO" FieldName="descripcion_pedido" VisibleIndex="3" ReadOnly="true">
                 </dx:GridViewDataTextColumn>               
-                <dx:GridViewDataTextColumn Caption="DIRECCION ORIGEN" FieldName="direccion_origen" VisibleIndex="4">
+                <dx:GridViewDataTextColumn Caption="DIRECCION ORIGEN" FieldName="direccion_origen" VisibleIndex="4" ReadOnly="true">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="DIRECCION DESTINO" FieldName="direccion_destino" VisibleIndex="5">
+                <dx:GridViewDataTextColumn Caption="DIRECCION DESTINO" FieldName="direccion_destino" VisibleIndex="5" ReadOnly="true">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="FECHA INGRESO" FieldName="fecha_ingreso" VisibleIndex="6">
+                <dx:GridViewDataTextColumn Caption="FECHA INGRESO" FieldName="fecha_ingreso" VisibleIndex="6" ReadOnly="true">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="COMENTARIO" FieldName="comentario" VisibleIndex="7">
+                <dx:GridViewDataTextColumn Caption="COMENTARIO" FieldName="comentario" VisibleIndex="7" ReadOnly="true">
                 </dx:GridViewDataTextColumn>
                 <dx:GridViewDataTextColumn Caption="ESTADO" FieldName="estado" VisibleIndex="8">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="COLABORADOR" FieldName="colaborador" VisibleIndex="9">
+                <dx:GridViewDataTextColumn Caption="COLABORADOR" FieldName="colaborador" VisibleIndex="9" ReadOnly="true">
                 </dx:GridViewDataTextColumn>
             </Columns>
             <SettingsPager>

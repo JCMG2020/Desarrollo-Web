@@ -5,7 +5,7 @@
     <form runat="server" style="width: 100%">
         <div class="row"  >             
             <dx:ASPxGridView ID="dxGridUsuario" runat="server" AutoGenerateColumns ="false"  ClientInstanceName="dxGridUsuario" KeyFieldName="idUsuario" SettingsBehavior-ConfirmDelete ="true"  Width="100"
-           Theme="Material">
+           Theme="Material" OnRowInserting="dxGridUsuario_RowInserting" OnRowUpdating="dxGridUsuario_RowUpdating" OnRowDeleting="dxGridUsuario_RowDeleting">
          
             <SettingsPager PageSize="10" />            
             <EditFormLayoutProperties>
@@ -23,20 +23,24 @@
                                
                 <dx:GridViewDataTextColumn Caption="ID USUARIO" FieldName="idUsuario" VisibleIndex="1" ReadOnly="true">                    
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="USUARIO" FieldName="usuario_alias" VisibleIndex="1" ReadOnly="true">                    
+                <dx:GridViewDataTextColumn Caption="USUARIO" FieldName="usuario_alias" VisibleIndex="2">                    
                 </dx:GridViewDataTextColumn>
-
-                <dx:GridViewDataTextColumn Caption="NOMBRE" FieldName="nombre" VisibleIndex="3">
+                <dx:GridViewDataTextColumn Caption="TIPO USUARIO" FieldName="tipo_usuario_nombre" VisibleIndex="3" >                    
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn Caption="NOMBRE" FieldName="nombre" VisibleIndex="4">
                 </dx:GridViewDataTextColumn>         
-                <dx:GridViewDataTextColumn Caption="APELLIDOS" FieldName="apellido" VisibleIndex="4">
+                <dx:GridViewDataTextColumn Caption="APELLIDOS" FieldName="apellido" VisibleIndex="5">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="EMAIL" FieldName="email" VisibleIndex="5">
+                <dx:GridViewDataTextColumn Caption="EMAIL" FieldName="email" VisibleIndex="6">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="CONTRASENA" FieldName="contrasena" VisibleIndex="6">
+                <dx:GridViewDataTextColumn Caption="CONTRASENA" FieldName="contrasena" VisibleIndex="7">
                 </dx:GridViewDataTextColumn>
-                <dx:GridViewDataTextColumn Caption="DPI" FieldName="DPI" VisibleIndex="6">
+                 <dx:GridViewDataTextColumn Caption="TELEFONO" FieldName="telefono" VisibleIndex="8">
                 </dx:GridViewDataTextColumn>
-      
+                <dx:GridViewDataTextColumn Caption="DPI" FieldName="DPI" VisibleIndex="9">
+                </dx:GridViewDataTextColumn>
+                <dx:GridViewDataTextColumn Caption="ESTADO" FieldName="estado" VisibleIndex="10">
+                </dx:GridViewDataTextColumn>
 
                 
             </Columns>

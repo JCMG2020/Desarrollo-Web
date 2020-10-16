@@ -305,7 +305,6 @@ C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\obj\Debug
 C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll
 C:\Users\JoseCarlos\Desktop\proyecto redes\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
 C:\Users\Murillo\Documents\GitHub\Desarrollo-Web\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
-C:\Users\Murillo\Documents\GitHub\Desarrollo-Web\ProyectoFinal\obj\Debug\ProyectoFinal.dll.licenses
 C:\Users\Murillo\Documents\GitHub\Desarrollo-Web\ProyectoFinal\obj\Debug\ProyectoFinal.dll
 C:\Users\Murillo\Documents\GitHub\Desarrollo-Web\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
 C:\Users\Murillo\Documents\GitHub\Desarrollo-Web\ProyectoFinal\bin\ProyectoFinal.dll.config

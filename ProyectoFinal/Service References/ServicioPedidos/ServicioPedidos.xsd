@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://servicios.org/" targetNamespace="http://servicios.org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="ObtenerPedidos" type="tns:ObtenerPedidos" />
-  <xs:element name="ObtenerPedidosResponse" type="tns:ObtenerPedidosResponse" />
+  <xs:element name="ObtenerPedidos" nillable="true" type="tns:ObtenerUsuarios" />
+  <xs:element name="ObtenerPedidosResponse" nillable="true" type="tns:ObtenerUsuariosResponse" />
+  <xs:element name="ObtenerUsuarios" type="tns:ObtenerUsuarios" />
+  <xs:element name="ObtenerUsuariosResponse" type="tns:ObtenerUsuariosResponse" />
   <xs:element name="actualizarPedido" type="tns:actualizarPedido" />
   <xs:element name="actualizarPedidoResponse" type="tns:actualizarPedidoResponse" />
   <xs:element name="insertarPedido" type="tns:insertarPedido" />
@@ -31,29 +33,27 @@
       <xs:element name="return" type="xs:boolean" />
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="ObtenerPedidos">
+  <xs:complexType name="ObtenerUsuarios">
     <xs:sequence />
   </xs:complexType>
-  <xs:complexType name="ObtenerPedidosResponse">
+  <xs:complexType name="ObtenerUsuariosResponse">
     <xs:sequence>
-      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelPedido" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelUsuario" />
     </xs:sequence>
   </xs:complexType>
-  <xs:complexType name="modelPedido">
+  <xs:complexType name="modelUsuario">
     <xs:sequence>
-      <xs:element minOccurs="0" name="colaborador" type="xs:string" />
-      <xs:element minOccurs="0" name="comentario" type="xs:string" />
-      <xs:element minOccurs="0" name="descripcion_pedido" type="xs:string" />
-      <xs:element minOccurs="0" name="direccion_destino" type="xs:string" />
-      <xs:element minOccurs="0" name="direccion_origen" type="xs:string" />
-      <xs:element minOccurs="0" name="estado" type="xs:string" />
-      <xs:element minOccurs="0" name="fecha_ingreso" type="xs:string" />
-      <xs:element name="idEstado" type="xs:int" />
-      <xs:element name="idPedido" type="xs:int" />
+      <xs:element minOccurs="0" name="apellido" type="xs:string" />
+      <xs:element minOccurs="0" name="contrasena" type="xs:string" />
+      <xs:element minOccurs="0" name="DPI" type="xs:string" />
+      <xs:element minOccurs="0" name="email" type="xs:string" />
+      <xs:element name="estado" type="xs:boolean" />
       <xs:element name="idUsuario" type="xs:int" />
-      <xs:element name="id_colaborador" type="xs:int" />
-      <xs:element name="tipo_pedido" type="xs:int" />
-      <xs:element minOccurs="0" name="usuario" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element name="telefono" type="xs:int" />
+      <xs:element name="tipo_usuario" type="xs:int" />
+      <xs:element minOccurs="0" name="tipo_usuario_nombre" type="xs:string" />
+      <xs:element minOccurs="0" name="usuario_alias" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
 </xs:schema>

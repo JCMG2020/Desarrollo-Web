@@ -52,6 +52,7 @@
                                     <ul class="nav child_menu">
                                         <li><a href="Usuarios.aspx">Mantenimiento Usuarios</a></li>
                                         <li><a href="Pedidos.aspx">Pedidos</a></li>
+                                        <li><a href="Colaboradores.aspx">Mantenimiento Colaboradores</a></li>
                                     </ul>
                                 </li>
                               

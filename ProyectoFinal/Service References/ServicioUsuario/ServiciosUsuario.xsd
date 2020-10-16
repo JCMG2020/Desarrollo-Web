@@ -45,7 +45,9 @@
       <xs:element name="estado" type="xs:boolean" />
       <xs:element name="idUsuario" type="xs:int" />
       <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element name="telefono" type="xs:int" />
       <xs:element name="tipo_usuario" type="xs:int" />
+      <xs:element minOccurs="0" name="tipo_usuario_nombre" type="xs:string" />
       <xs:element minOccurs="0" name="usuario_alias" type="xs:string" />
     </xs:sequence>
   </xs:complexType>
