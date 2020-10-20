@@ -17,7 +17,7 @@
       <xs:element minOccurs="0" name="APELLIDO" type="xs:string" />
       <xs:element minOccurs="0" name="EMAIL" type="xs:string" />
       <xs:element minOccurs="0" name="CONTRASENA" type="xs:string" />
-      <xs:element name="TELEFONO" type="xs:int" />
+      <xs:element minOccurs="0" name="TELEFONO" type="xs:string" />
       <xs:element name="TIPO_USUARIO" type="xs:int" />
       <xs:element minOccurs="0" name="DPI" type="xs:string" />
       <xs:element name="ESTADO" type="xs:boolean" />
@@ -45,7 +45,7 @@
       <xs:element name="estado" type="xs:boolean" />
       <xs:element name="idUsuario" type="xs:int" />
       <xs:element minOccurs="0" name="nombre" type="xs:string" />
-      <xs:element name="telefono" type="xs:int" />
+      <xs:element minOccurs="0" name="telefono" type="xs:string" />
       <xs:element name="tipo_usuario" type="xs:int" />
       <xs:element minOccurs="0" name="tipo_usuario_nombre" type="xs:string" />
       <xs:element minOccurs="0" name="usuario_alias" type="xs:string" />
@@ -59,7 +59,7 @@
       <xs:element minOccurs="0" name="APELLIDO" type="xs:string" />
       <xs:element minOccurs="0" name="EMAIL" type="xs:string" />
       <xs:element minOccurs="0" name="CONTRASENA" type="xs:string" />
-      <xs:element name="TELEFONO" type="xs:int" />
+      <xs:element minOccurs="0" name="TELEFONO" type="xs:string" />
       <xs:element name="TIPO_USUARIO" type="xs:int" />
       <xs:element minOccurs="0" name="DPI" type="xs:string" />
       <xs:element name="ESTADO" type="xs:boolean" />

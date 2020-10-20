@@ -1,6 +1,8 @@
-﻿using ProyectoFinal.App_Code.Utilidades;
+﻿using DevExpress.Web;
+using ProyectoFinal.App_Code.Utilidades;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -46,7 +48,7 @@ namespace ProyectoFinal
         {
             ServicioColaborador.ServicioColaboradorClient sercivio_colaborador = new ServicioColaborador.ServicioColaboradorClient();
             string id = e.NewValues["idColaborador"].ToString();
-            string nombre = e.NewValues["nombre"].ToString();            string apellido = e.NewValues["apellido"].ToString();            string dpi = e.NewValues["DPI"].ToString();            string cargo = e.NewValues["cargo"].ToString();            string fecha_nac = e.NewValues["fechaNacimiento"].ToString();            string fecha_contratacion = e.NewValues["fechaContratacion"].ToString();            string domicilio = e.NewValues["domicilio"].ToString();            string telefono = e.NewValues["telefono"].ToString();
+            string nombre = e.NewValues["nombre"].ToString();            string apellido = e.NewValues["apellido"].ToString();            string dpi = e.NewValues["DPI"].ToString();            string cargo = e.NewValues["idCargo"].ToString();            string fecha_nac = e.NewValues["fechaNacimiento"].ToString();            string fecha_contratacion = e.NewValues["fechaContratacion"].ToString();            string domicilio = e.NewValues["domicilio"].ToString();            string telefono = e.NewValues["telefono"].ToString();
             string placa = e.NewValues["placa"].ToString();
             string estado = e.NewValues["estado"].ToString();
 
@@ -59,6 +61,36 @@ namespace ProyectoFinal
             ServicioColaborador.ServicioColaboradorClient sercivio_colaborador = new ServicioColaborador.ServicioColaboradorClient();
 
             String id = e.Keys["idColaborador"].ToString();            sercivio_colaborador.eliminarColaborador(int.Parse(id));            cargaColaborador();            e.Cancel = true;
+        }
+
+        protected void dxGridColaborador_CellEditorInitialize(object sender, DevExpress.Web.ASPxGridViewEditorEventArgs e)
+        {
+            DataTable dt = new DataTable();   
+            dt.Columns.Add("idCargo");
+            dt.Columns.Add("cargo");
+
+
+            ServicioColaborador.ServicioColaboradorClient sercivio_colaborador = new ServicioColaborador.ServicioColaboradorClient();
+
+
+
+            DataTable dt2 = new DataTable();
+            dt2.Columns.Add("idCargo");
+            dt2.Columns.Add("cargo");
+
+            if (e.Column.FieldName == "idCargo")
+            {
+
+                ASPxComboBox request = e.Editor as ASPxComboBox;
+                request.ValueField = "idCargo";
+                request.TextField = "cargo";
+                request.ValueType = typeof(System.Int32);
+
+                request.DataSource = sercivio_colaborador.ObtenerCargos();
+                request.DataBindItems();
+
+
+            }
         }
     }
 }
