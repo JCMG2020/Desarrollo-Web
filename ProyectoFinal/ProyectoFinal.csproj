@@ -135,8 +135,6 @@
     <None Include="Service References\ServicioColaborador\ServicioColaborador.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServicioPedidos\configuration91.svcinfo" />
-    <None Include="Service References\ServicioPedidos\configuration.svcinfo" />
     <None Include="Service References\ServicioColaborador\configuration91.svcinfo" />
     <None Include="Service References\ServicioColaborador\configuration.svcinfo" />
     <None Include="Service References\ServicioColaborador\Reference.svcmap">
@@ -149,22 +147,27 @@
     <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.insertarPedidoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.modelPedido.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.ObtenerPedidosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.modelUsuario.datasource">
+    <Content Include="Service References\ServicioPedidos\ProyectoFinal.ServicioPedidos.ObtenerTipoPedidoResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <None Include="Service References\ServicioPedidos\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
     <None Include="Service References\ServicioPedidos\ServicioPedidos.wsdl" />
     <None Include="Service References\ServicioPedidos\ServicioPedidos.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Service References\ServicioUsuario\configuration91.svcinfo" />
     <None Include="Service References\ServicioUsuario\configuration.svcinfo" />
+    <None Include="Service References\ServicioPedidos\configuration91.svcinfo" />
+    <None Include="Service References\ServicioPedidos\configuration.svcinfo" />
+    <None Include="Service References\ServicioPedidos\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.actualizarUsuarioResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -181,6 +184,9 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.ObtenerUsuariosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.ObtenerTipoUsuarioResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <None Include="Service References\ServicioUsuario\Reference.svcmap">

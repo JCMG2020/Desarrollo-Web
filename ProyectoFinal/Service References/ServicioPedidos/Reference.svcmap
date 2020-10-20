@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="950e37fc-5c21-4df8-8b22-75c68df6ca74" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4ae25c4b-29bf-4064-964e-1ddb795caa39" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,8 +22,8 @@
     <MetadataSource Address="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?WSDL" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ServicioPedidos.xsd" MetadataType="Schema" ID="0393a29f-dc8e-4134-928f-a360b8344a70" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?xsd=1" />
-    <MetadataFile FileName="ServicioPedidos.wsdl" MetadataType="Wsdl" ID="65e0e56d-72f2-4d88-b77a-111a911650b1" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?WSDL" />
+    <MetadataFile FileName="ServicioPedidos.xsd" MetadataType="Schema" ID="ee6b76da-9dc3-4552-a14f-e22f36c6c2ac" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?xsd=1" />
+    <MetadataFile FileName="ServicioPedidos.wsdl" MetadataType="Wsdl" ID="8bd48b14-3be0-4257-b843-65909516a4e9" SourceId="1" SourceUrl="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?WSDL" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

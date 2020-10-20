@@ -5,11 +5,17 @@
       <xsd:import schemaLocation="http://localhost:8080/Desarrollo-Java-Services/ServicioColaborador?xsd=1" namespace="http://servicios.org/" />
     </xsd:schema>
   </types>
-  <message name="insertarColaborador">
-    <part name="parameters" element="tns:insertarColaborador" />
+  <message name="ObtenerColaboradorres">
+    <part name="parameters" element="tns:ObtenerColaboradorres" />
   </message>
-  <message name="insertarColaboradorResponse">
-    <part name="parameters" element="tns:insertarColaboradorResponse" />
+  <message name="ObtenerColaboradorresResponse">
+    <part name="parameters" element="tns:ObtenerColaboradorresResponse" />
+  </message>
+  <message name="ObtenerCargos">
+    <part name="parameters" element="tns:ObtenerCargos" />
+  </message>
+  <message name="ObtenerCargosResponse">
+    <part name="parameters" element="tns:ObtenerCargosResponse" />
   </message>
   <message name="eliminarColaborador">
     <part name="parameters" element="tns:eliminarColaborador" />
@@ -23,22 +29,20 @@
   <message name="actualizarColaboradorResponse">
     <part name="parameters" element="tns:actualizarColaboradorResponse" />
   </message>
-  <message name="ObtenerColaboradorres">
-    <part name="parameters" element="tns:ObtenerColaboradorres" />
+  <message name="insertarColaborador">
+    <part name="parameters" element="tns:insertarColaborador" />
   </message>
-  <message name="ObtenerColaboradorresResponse">
-    <part name="parameters" element="tns:ObtenerColaboradorresResponse" />
-  </message>
-  <message name="ObtenerCargos">
-    <part name="parameters" element="tns:ObtenerCargos" />
-  </message>
-  <message name="ObtenerCargosResponse">
-    <part name="parameters" element="tns:ObtenerCargosResponse" />
+  <message name="insertarColaboradorResponse">
+    <part name="parameters" element="tns:insertarColaboradorResponse" />
   </message>
   <portType name="ServicioColaborador">
-    <operation name="insertarColaborador">
-      <input wsam:Action="http://servicios.org/ServicioColaborador/insertarColaboradorRequest" message="tns:insertarColaborador" />
-      <output wsam:Action="http://servicios.org/ServicioColaborador/insertarColaboradorResponse" message="tns:insertarColaboradorResponse" />
+    <operation name="ObtenerColaboradorres">
+      <input wsam:Action="http://servicios.org/ServicioColaborador/ObtenerColaboradorresRequest" message="tns:ObtenerColaboradorres" />
+      <output wsam:Action="http://servicios.org/ServicioColaborador/ObtenerColaboradorresResponse" message="tns:ObtenerColaboradorresResponse" />
+    </operation>
+    <operation name="ObtenerCargos">
+      <input wsam:Action="http://servicios.org/ServicioColaborador/ObtenerCargosRequest" message="tns:ObtenerCargos" />
+      <output wsam:Action="http://servicios.org/ServicioColaborador/ObtenerCargosResponse" message="tns:ObtenerCargosResponse" />
     </operation>
     <operation name="eliminarColaborador">
       <input wsam:Action="http://servicios.org/ServicioColaborador/eliminarColaboradorRequest" message="tns:eliminarColaborador" />
@@ -48,18 +52,23 @@
       <input wsam:Action="http://servicios.org/ServicioColaborador/actualizarColaboradorRequest" message="tns:actualizarColaborador" />
       <output wsam:Action="http://servicios.org/ServicioColaborador/actualizarColaboradorResponse" message="tns:actualizarColaboradorResponse" />
     </operation>
-    <operation name="ObtenerColaboradorres">
-      <input wsam:Action="http://servicios.org/ServicioColaborador/ObtenerColaboradorresRequest" message="tns:ObtenerColaboradorres" />
-      <output wsam:Action="http://servicios.org/ServicioColaborador/ObtenerColaboradorresResponse" message="tns:ObtenerColaboradorresResponse" />
-    </operation>
-    <operation name="ObtenerCargos">
-      <input wsam:Action="http://servicios.org/ServicioColaborador/ObtenerCargosRequest" message="tns:ObtenerCargos" />
-      <output wsam:Action="http://servicios.org/ServicioColaborador/ObtenerCargosResponse" message="tns:ObtenerCargosResponse" />
+    <operation name="insertarColaborador">
+      <input wsam:Action="http://servicios.org/ServicioColaborador/insertarColaboradorRequest" message="tns:insertarColaborador" />
+      <output wsam:Action="http://servicios.org/ServicioColaborador/insertarColaboradorResponse" message="tns:insertarColaboradorResponse" />
     </operation>
   </portType>
   <binding name="ServicioColaboradorPortBinding" type="tns:ServicioColaborador">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <operation name="insertarColaborador">
+    <operation name="ObtenerColaboradorres">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ObtenerCargos">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -86,16 +95,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="ObtenerColaboradorres">
-      <soap:operation soapAction="" />
-      <input>
-        <soap:body use="literal" />
-      </input>
-      <output>
-        <soap:body use="literal" />
-      </output>
-    </operation>
-    <operation name="ObtenerCargos">
+    <operation name="insertarColaborador">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

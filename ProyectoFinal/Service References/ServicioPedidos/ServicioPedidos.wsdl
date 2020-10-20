@@ -5,11 +5,11 @@
       <xsd:import schemaLocation="http://localhost:8080/Desarrollo-Java-Services/ServicioPedidos?xsd=1" namespace="http://servicios.org/" />
     </xsd:schema>
   </types>
-  <message name="insertarPedido">
-    <part name="parameters" element="tns:insertarPedido" />
+  <message name="ObtenerPedidos">
+    <part name="parameters" element="tns:ObtenerPedidos" />
   </message>
-  <message name="insertarPedidoResponse">
-    <part name="parameters" element="tns:insertarPedidoResponse" />
+  <message name="ObtenerPedidosResponse">
+    <part name="parameters" element="tns:ObtenerPedidosResponse" />
   </message>
   <message name="actualizarPedido">
     <part name="parameters" element="tns:actualizarPedido" />
@@ -17,29 +17,39 @@
   <message name="actualizarPedidoResponse">
     <part name="parameters" element="tns:actualizarPedidoResponse" />
   </message>
-  <message name="ObtenerPedidos">
-    <part name="parameters" element="tns:ObtenerPedidos" />
+  <message name="insertarPedido">
+    <part name="parameters" element="tns:insertarPedido" />
   </message>
-  <message name="ObtenerPedidosResponse">
-    <part name="parameters" element="tns:ObtenerPedidosResponse" />
+  <message name="insertarPedidoResponse">
+    <part name="parameters" element="tns:insertarPedidoResponse" />
+  </message>
+  <message name="ObtenerTipoPedido">
+    <part name="parameters" element="tns:ObtenerTipoPedido" />
+  </message>
+  <message name="ObtenerTipoPedidoResponse">
+    <part name="parameters" element="tns:ObtenerTipoPedidoResponse" />
   </message>
   <portType name="ServicioPedidos">
-    <operation name="insertarPedido">
-      <input wsam:Action="http://servicios.org/ServicioPedidos/insertarPedidoRequest" message="tns:insertarPedido" />
-      <output wsam:Action="http://servicios.org/ServicioPedidos/insertarPedidoResponse" message="tns:insertarPedidoResponse" />
+    <operation name="ObtenerPedidos">
+      <input wsam:Action="http://servicios.org/ServicioPedidos/ObtenerPedidosRequest" message="tns:ObtenerPedidos" />
+      <output wsam:Action="http://servicios.org/ServicioPedidos/ObtenerPedidosResponse" message="tns:ObtenerPedidosResponse" />
     </operation>
     <operation name="actualizarPedido">
       <input wsam:Action="http://servicios.org/ServicioPedidos/actualizarPedidoRequest" message="tns:actualizarPedido" />
       <output wsam:Action="http://servicios.org/ServicioPedidos/actualizarPedidoResponse" message="tns:actualizarPedidoResponse" />
     </operation>
-    <operation name="ObtenerPedidos">
-      <input wsam:Action="http://servicios.org/ServicioPedidos/ObtenerPedidosRequest" message="tns:ObtenerPedidos" />
-      <output wsam:Action="http://servicios.org/ServicioPedidos/ObtenerPedidosResponse" message="tns:ObtenerPedidosResponse" />
+    <operation name="insertarPedido">
+      <input wsam:Action="http://servicios.org/ServicioPedidos/insertarPedidoRequest" message="tns:insertarPedido" />
+      <output wsam:Action="http://servicios.org/ServicioPedidos/insertarPedidoResponse" message="tns:insertarPedidoResponse" />
+    </operation>
+    <operation name="ObtenerTipoPedido">
+      <input wsam:Action="http://servicios.org/ServicioPedidos/ObtenerTipoPedidoRequest" message="tns:ObtenerTipoPedido" />
+      <output wsam:Action="http://servicios.org/ServicioPedidos/ObtenerTipoPedidoResponse" message="tns:ObtenerTipoPedidoResponse" />
     </operation>
   </portType>
   <binding name="ServicioPedidosPortBinding" type="tns:ServicioPedidos">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <operation name="insertarPedido">
+    <operation name="ObtenerPedidos">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -57,7 +67,16 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="ObtenerPedidos">
+    <operation name="insertarPedido">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ObtenerTipoPedido">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

@@ -2,6 +2,8 @@
 <xs:schema xmlns:tns="http://servicios.org/" targetNamespace="http://servicios.org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="LoginUsuario" type="tns:LoginUsuario" />
   <xs:element name="LoginUsuarioResponse" type="tns:LoginUsuarioResponse" />
+  <xs:element name="ObtenerTipoUsuario" type="tns:ObtenerTipoUsuario" />
+  <xs:element name="ObtenerTipoUsuarioResponse" type="tns:ObtenerTipoUsuarioResponse" />
   <xs:element name="ObtenerUsuarios" type="tns:ObtenerUsuarios" />
   <xs:element name="ObtenerUsuariosResponse" type="tns:ObtenerUsuariosResponse" />
   <xs:element name="actualizarUsuario" type="tns:actualizarUsuario" />
@@ -68,6 +70,14 @@
   <xs:complexType name="actualizarUsuarioResponse">
     <xs:sequence>
       <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ObtenerTipoUsuario">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="ObtenerTipoUsuarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:modelUsuario" />
     </xs:sequence>
   </xs:complexType>
   <xs:complexType name="eliminarUsuario">
