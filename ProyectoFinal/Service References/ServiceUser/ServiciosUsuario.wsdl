@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://servicios.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="ServiciosUsuario" targetNamespace="http://servicios.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://c6c5154c6d13.ngrok.io:80/Desarrollo-Java-Services/ServiciosUsuario?xsd=1" namespace="http://servicios.org/" />
+    </xsd:schema>
+  </types>
+  <message name="LoginUsuario">
+    <part name="parameters" element="tns:LoginUsuario" />
+  </message>
+  <message name="LoginUsuarioResponse">
+    <part name="parameters" element="tns:LoginUsuarioResponse" />
+  </message>
+  <message name="actualizarUsuario">
+    <part name="parameters" element="tns:actualizarUsuario" />
+  </message>
+  <message name="actualizarUsuarioResponse">
+    <part name="parameters" element="tns:actualizarUsuarioResponse" />
+  </message>
+  <message name="ObtenerUsuarios">
+    <part name="parameters" element="tns:ObtenerUsuarios" />
+  </message>
+  <message name="ObtenerUsuariosResponse">
+    <part name="parameters" element="tns:ObtenerUsuariosResponse" />
+  </message>
+  <message name="eliminarUsuario">
+    <part name="parameters" element="tns:eliminarUsuario" />
+  </message>
+  <message name="eliminarUsuarioResponse">
+    <part name="parameters" element="tns:eliminarUsuarioResponse" />
+  </message>
+  <message name="insertarUsuario">
+    <part name="parameters" element="tns:insertarUsuario" />
+  </message>
+  <message name="insertarUsuarioResponse">
+    <part name="parameters" element="tns:insertarUsuarioResponse" />
+  </message>
+  <portType name="ServiciosUsuario">
+    <operation name="LoginUsuario">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/LoginUsuarioRequest" message="tns:LoginUsuario" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/LoginUsuarioResponse" message="tns:LoginUsuarioResponse" />
+    </operation>
+    <operation name="actualizarUsuario">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/actualizarUsuarioRequest" message="tns:actualizarUsuario" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/actualizarUsuarioResponse" message="tns:actualizarUsuarioResponse" />
+    </operation>
+    <operation name="ObtenerUsuarios">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerUsuariosRequest" message="tns:ObtenerUsuarios" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerUsuariosResponse" message="tns:ObtenerUsuariosResponse" />
+    </operation>
+    <operation name="eliminarUsuario">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/eliminarUsuarioRequest" message="tns:eliminarUsuario" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/eliminarUsuarioResponse" message="tns:eliminarUsuarioResponse" />
+    </operation>
+    <operation name="insertarUsuario">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/insertarUsuarioRequest" message="tns:insertarUsuario" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/insertarUsuarioResponse" message="tns:insertarUsuarioResponse" />
+    </operation>
+  </portType>
+  <binding name="ServiciosUsuarioPortBinding" type="tns:ServiciosUsuario">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="LoginUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ObtenerUsuarios">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServiciosUsuario">
+    <port name="ServiciosUsuarioPort" binding="tns:ServiciosUsuarioPortBinding">
+      <soap:address location="http://c6c5154c6d13.ngrok.io:80/Desarrollo-Java-Services/ServiciosUsuario" />
+    </port>
+  </service>
+</definitions>

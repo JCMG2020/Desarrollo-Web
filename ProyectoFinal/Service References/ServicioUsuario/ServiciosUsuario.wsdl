@@ -11,11 +11,11 @@
   <message name="LoginUsuarioResponse">
     <part name="parameters" element="tns:LoginUsuarioResponse" />
   </message>
-  <message name="ObtenerUsuarios">
-    <part name="parameters" element="tns:ObtenerUsuarios" />
+  <message name="eliminarUsuario">
+    <part name="parameters" element="tns:eliminarUsuario" />
   </message>
-  <message name="ObtenerUsuariosResponse">
-    <part name="parameters" element="tns:ObtenerUsuariosResponse" />
+  <message name="eliminarUsuarioResponse">
+    <part name="parameters" element="tns:eliminarUsuarioResponse" />
   </message>
   <message name="insertarUsuario">
     <part name="parameters" element="tns:insertarUsuario" />
@@ -23,17 +23,11 @@
   <message name="insertarUsuarioResponse">
     <part name="parameters" element="tns:insertarUsuarioResponse" />
   </message>
-  <message name="eliminarUsuario">
-    <part name="parameters" element="tns:eliminarUsuario" />
+  <message name="ObtenerUsuarios">
+    <part name="parameters" element="tns:ObtenerUsuarios" />
   </message>
-  <message name="eliminarUsuarioResponse">
-    <part name="parameters" element="tns:eliminarUsuarioResponse" />
-  </message>
-  <message name="actualizarUsuario">
-    <part name="parameters" element="tns:actualizarUsuario" />
-  </message>
-  <message name="actualizarUsuarioResponse">
-    <part name="parameters" element="tns:actualizarUsuarioResponse" />
+  <message name="ObtenerUsuariosResponse">
+    <part name="parameters" element="tns:ObtenerUsuariosResponse" />
   </message>
   <message name="ObtenerTipoUsuario">
     <part name="parameters" element="tns:ObtenerTipoUsuario" />
@@ -41,30 +35,36 @@
   <message name="ObtenerTipoUsuarioResponse">
     <part name="parameters" element="tns:ObtenerTipoUsuarioResponse" />
   </message>
+  <message name="actualizarUsuario">
+    <part name="parameters" element="tns:actualizarUsuario" />
+  </message>
+  <message name="actualizarUsuarioResponse">
+    <part name="parameters" element="tns:actualizarUsuarioResponse" />
+  </message>
   <portType name="ServiciosUsuario">
     <operation name="LoginUsuario">
       <input wsam:Action="http://servicios.org/ServiciosUsuario/LoginUsuarioRequest" message="tns:LoginUsuario" />
       <output wsam:Action="http://servicios.org/ServiciosUsuario/LoginUsuarioResponse" message="tns:LoginUsuarioResponse" />
     </operation>
-    <operation name="ObtenerUsuarios">
-      <input wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerUsuariosRequest" message="tns:ObtenerUsuarios" />
-      <output wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerUsuariosResponse" message="tns:ObtenerUsuariosResponse" />
+    <operation name="eliminarUsuario">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/eliminarUsuarioRequest" message="tns:eliminarUsuario" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/eliminarUsuarioResponse" message="tns:eliminarUsuarioResponse" />
     </operation>
     <operation name="insertarUsuario">
       <input wsam:Action="http://servicios.org/ServiciosUsuario/insertarUsuarioRequest" message="tns:insertarUsuario" />
       <output wsam:Action="http://servicios.org/ServiciosUsuario/insertarUsuarioResponse" message="tns:insertarUsuarioResponse" />
     </operation>
-    <operation name="eliminarUsuario">
-      <input wsam:Action="http://servicios.org/ServiciosUsuario/eliminarUsuarioRequest" message="tns:eliminarUsuario" />
-      <output wsam:Action="http://servicios.org/ServiciosUsuario/eliminarUsuarioResponse" message="tns:eliminarUsuarioResponse" />
-    </operation>
-    <operation name="actualizarUsuario">
-      <input wsam:Action="http://servicios.org/ServiciosUsuario/actualizarUsuarioRequest" message="tns:actualizarUsuario" />
-      <output wsam:Action="http://servicios.org/ServiciosUsuario/actualizarUsuarioResponse" message="tns:actualizarUsuarioResponse" />
+    <operation name="ObtenerUsuarios">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerUsuariosRequest" message="tns:ObtenerUsuarios" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerUsuariosResponse" message="tns:ObtenerUsuariosResponse" />
     </operation>
     <operation name="ObtenerTipoUsuario">
       <input wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerTipoUsuarioRequest" message="tns:ObtenerTipoUsuario" />
       <output wsam:Action="http://servicios.org/ServiciosUsuario/ObtenerTipoUsuarioResponse" message="tns:ObtenerTipoUsuarioResponse" />
+    </operation>
+    <operation name="actualizarUsuario">
+      <input wsam:Action="http://servicios.org/ServiciosUsuario/actualizarUsuarioRequest" message="tns:actualizarUsuario" />
+      <output wsam:Action="http://servicios.org/ServiciosUsuario/actualizarUsuarioResponse" message="tns:actualizarUsuarioResponse" />
     </operation>
   </portType>
   <binding name="ServiciosUsuarioPortBinding" type="tns:ServiciosUsuario">
@@ -78,7 +78,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="ObtenerUsuarios">
+    <operation name="eliminarUsuario">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -96,16 +96,7 @@
         <soap:body use="literal" />
       </output>
     </operation>
-    <operation name="eliminarUsuario">
-      <soap:operation soapAction="" />
-      <input>
-        <soap:body use="literal" />
-      </input>
-      <output>
-        <soap:body use="literal" />
-      </output>
-    </operation>
-    <operation name="actualizarUsuario">
+    <operation name="ObtenerUsuarios">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />
@@ -115,6 +106,15 @@
       </output>
     </operation>
     <operation name="ObtenerTipoUsuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="actualizarUsuario">
       <soap:operation soapAction="" />
       <input>
         <soap:body use="literal" />

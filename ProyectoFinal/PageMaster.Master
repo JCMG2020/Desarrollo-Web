@@ -36,7 +36,7 @@
                         </div>
                         <div class="profile_info">
                             <span>Welcome,</span>
-                            <h2>Usuario</h2>
+                            <h2>Usuario : <asp:Label ID="txtUsr" runat="server" Text=""></asp:Label></h2>
                         </div>
                     </div>
                     <!-- /menu profile quick info -->
@@ -94,11 +94,11 @@
                         <ul class=" navbar-right">
                             <li class="nav-item dropdown open" style="padding-left: 15px;">
                                 <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
-                                    <img src="images/img.jpg" alt="">Usuario
+                                    <img src="images/img.jpg" alt=""><asp:Label ID="txtUsr1" runat="server" Text=""></asp:Label>
                                 </a>
                                 <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                                     
-                                    <a class="dropdown-item" href="login.html"><i class="fa fa-sign-out pull-right"></i>Log Out</a>
+                                    <a class="dropdown-item" onclick="" href="login.aspx"><i class="fa fa-sign-out pull-right"></i>Log Out</a>
                                 </div>
                             </li>
 

@@ -113,6 +113,67 @@
     <Content Include="js\moment\moment.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="Pedidos.aspx" />
+    <Content Include="Service References\ServiceUserLocal\ProyectoFinal.ServiceUserLocal.actualizarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUserLocal\ProyectoFinal.ServiceUserLocal.eliminarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUserLocal\ProyectoFinal.ServiceUserLocal.insertarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUserLocal\ProyectoFinal.ServiceUserLocal.LoginUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUserLocal\ProyectoFinal.ServiceUserLocal.modelPedido.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUserLocal\ProyectoFinal.ServiceUserLocal.modelUsuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUserLocal\ProyectoFinal.ServiceUserLocal.ObtenerTipoUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUserLocal\ProyectoFinal.ServiceUserLocal.ObtenerUsuariosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\ServiceUserLocal\ServiciosUsuario.wsdl" />
+    <None Include="Service References\ServiceUserLocal\ServiciosUsuario.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ServiceUser\configuration91.svcinfo" />
+    <None Include="Service References\ServiceUser\configuration.svcinfo" />
+    <None Include="Service References\ServiceUserLocal\configuration91.svcinfo" />
+    <None Include="Service References\ServiceUserLocal\configuration.svcinfo" />
+    <None Include="Service References\ServiceUserLocal\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Service References\ServiceUser\ProyectoFinal.ServiceUser.actualizarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUser\ProyectoFinal.ServiceUser.eliminarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUser\ProyectoFinal.ServiceUser.insertarUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUser\ProyectoFinal.ServiceUser.LoginUsuarioResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUser\ProyectoFinal.ServiceUser.modelPedido.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUser\ProyectoFinal.ServiceUser.modelUsuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <Content Include="Service References\ServiceUser\ProyectoFinal.ServiceUser.ObtenerUsuariosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Service References\ServiceUser\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Service References\ServicioColaborador\ProyectoFinal.ServicioColaborador.actualizarColaboradorResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -131,6 +192,10 @@
     <Content Include="Service References\ServicioColaborador\ProyectoFinal.ServicioColaborador.ObtenerCargosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <None Include="Service References\ServiceUser\ServiciosUsuario.wsdl" />
+    <None Include="Service References\ServiceUser\ServiciosUsuario.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Service References\ServicioColaborador\ServicioColaborador.wsdl" />
     <None Include="Service References\ServicioColaborador\ServicioColaborador.xsd">
       <SubType>Designer</SubType>
@@ -160,14 +225,14 @@
     <None Include="Service References\ServicioPedidos\ServicioPedidos.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServicioUsuario\configuration91.svcinfo" />
-    <None Include="Service References\ServicioUsuario\configuration.svcinfo" />
     <None Include="Service References\ServicioPedidos\configuration91.svcinfo" />
     <None Include="Service References\ServicioPedidos\configuration.svcinfo" />
     <None Include="Service References\ServicioPedidos\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <None Include="Service References\ServicioUsuario\configuration91.svcinfo" />
+    <None Include="Service References\ServicioUsuario\configuration.svcinfo" />
     <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.actualizarUsuarioResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
@@ -180,13 +245,16 @@
     <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.LoginUsuarioResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.modelPedido.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.modelUsuario.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.ObtenerUsuariosResponse.datasource">
+    <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.ObtenerTipoUsuarioResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.ObtenerTipoUsuarioResponse.datasource">
+    <Content Include="Service References\ServicioUsuario\ProyectoFinal.ServicioUsuario.ObtenerUsuariosResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
     <None Include="Service References\ServicioUsuario\Reference.svcmap">
@@ -3937,6 +4005,16 @@
     <Compile Include="Secundaria.Master.designer.cs">
       <DependentUpon>Secundaria.Master</DependentUpon>
     </Compile>
+    <Compile Include="Service References\ServiceUserLocal\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ServiceUser\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\ServicioColaborador\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -5023,6 +5101,8 @@
     <Folder Include="login\vendor\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceUserLocal\" />
+    <WCFMetadataStorage Include="Service References\ServiceUser\" />
     <WCFMetadataStorage Include="Service References\ServicioColaborador\" />
     <WCFMetadataStorage Include="Service References\ServicioPedidos\" />
     <WCFMetadataStorage Include="Service References\ServicioUsuario\" />

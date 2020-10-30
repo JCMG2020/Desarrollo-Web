@@ -11,7 +11,12 @@ namespace ProyectoFinal
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["User"] != null)
+            {
+            } else
+            {
+                Response.Redirect("~/Login.aspx");
+            }
         }
     }
 }

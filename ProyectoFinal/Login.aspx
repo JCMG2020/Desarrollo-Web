@@ -15,26 +15,36 @@
         <span class="txt1 p-b-11">
 		    E-mail
 		</span>
-		<div class="wrap-input100 validate-input m-b-36" data-validate = "Username is required">
-            <dx:aspxtextbox id="txtCorreo" runat="server" CssClass="input100" autopostback="true">                                                           </dx:aspxtextbox>
+		
+            <dx:aspxtextbox id="txtCorreo" runat="server" CssClass="input100" autopostback="true">                                               
+            </dx:aspxtextbox>
             <span class="focus-input100"></span>
-	    </div>	
+	    
         <span class="txt1 p-b-11">
 		    Password
 		</span>		
-		<div class="wrap-input100 validate-input m-b-12" data-validate = "Password is required">
+		
 		    <span class="btn-show-pass">
 			    <i class="fa fa-eye"></i>
-			</span>            <dx:aspxtextbox id="txtContrasena" runat="server" CssClass="input100" autopostback="true">                                                           </dx:aspxtextbox>                                            
+			</span>
+            <dx:aspxtextbox id="txtContrasena" runat="server" CssClass="input100" autopostback="true">                                               
+            </dx:aspxtextbox>                                            
             <span class="focus-input100"></span>
-		</div>
+
+		
         <div class="container-login100-form-btn">
             <dx:ASPxButton ID="dxBtnAceptar" runat="server" Text="LOGIN"  onClick="dxBtnAceptar_Click" CssClass="login100-form-btn" >                                                       
             </dx:ASPxButton> 
         </div>
+
+        <span class="txt1 p-b-11">
+            <asp:Label ID="lb_error" runat="server" Text=""></asp:Label>
+		    
+		</span>
+
     </form>
     </div>
     </div>
-    </div>
+    
     
 </asp:Content>
